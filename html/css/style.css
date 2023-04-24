@@ -1,0 +1,116 @@
+.titles {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 400;
+    text-decoration: underline solid rgb(68, 68, 68);
+    text-align: center;
+}
+.paragraphs {
+    text-align: justify;
+}
+.item1 {
+    grid-area: header;
+}
+.item2 {
+    grid-area: cars;
+}
+.item3 {
+    grid-area: bikes;
+}
+.item4 {
+    grid-area: cop;
+}
+.item5 {
+    grid-area: copt;
+}
+.item6 {
+    grid-area: toyota;
+}
+.item7 {
+    grid-area: mustang;
+}
+.item8 {
+    grid-area: gushe;
+}
+.item9 {
+    grid-area: bakkie;
+}
+.item10 {
+    grid-area: harley;
+}
+.item11 {
+    grid-area: yamaha;
+}
+.item12 {
+    grid-area: honda;
+}
+.Container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'cars cars cars cop toyota mustang'
+        'cars cars cars copt gushe bakkie'
+        'bikes bikes bikes harley yamaha honda'
+        'bikes bikes bikes harley yamaha honda';
+    gap: 10px;
+    outline: 6px solid black;
+    outline-offset: 0px;
+    border-inline-color: black;
+    background-color: black;
+    text-align: center;
+    padding: 10px ;
+    font-size: 30px;
+      }
+.Container > div {
+        background-color: rgb(1, 140, 246);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+      .body{
+        background-image: url(/img/black-cars-wallpaper-.jpg);
+        min-height: 50%;
+        background-size: cover;
+        position: fixed;
+        min-height: 100vh;
+        transition: 2s ease-in-out;
+
+      }
+
+      header.titles{
+        font-size: x-large;
+        color: white;
+      }
+
+      .p1{
+        display: block;
+        padding: 50px 50px;
+        margin: 0px;
+        color: black bold;
+        background-color: white;
+        font-size: large;
+        font-family: 'Poltawski Nowy', serif;
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        justify-content: center;
+        border-radius: 999px;
+        width: fit-content;
+        
+        
+      }
+      .body:hover{
+        background-image: url(/img/stance-cars.jpg);
+        background-size: cover;
+        position: fixed;
+        min-height: 100vh;
+      }
+
+      .p1:hover{
+        background-color: transparent;
+        font-size: larger;
+        font-weight: bold;
+        color: white;
+      }
