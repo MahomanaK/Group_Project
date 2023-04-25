@@ -1,0 +1,54 @@
+*{
+  text-align: center;
+  font-family: 'Antic Didone', serif;
+}
+.header {
+    padding: 20px;
+    text-align: end;
+    background-image: linear-gradient(red, rgb(255, 0, 0));
+    color: white;
+    font-size: 20px;
+    width: 98%;
+    top: 0;
+    position: fixed;
+    
+  }
+  footer{
+    background-image: linear-gradient(red, rgb(255, 98, 0));
+    padding: 20px;  
+    position: fixed;
+    width: 98%;
+    top: 89%;
+  }
+  
+  .footer-icon {
+    width: 3em;
+  }
+
+  .footer-link::after {
+    content: attr(data-name);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 20;
+    background-color: antiquewhite;
+  }
+
+  .container {
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+
+  .btn {
+  background-color: white; 
+  border-radius: 1em;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
+ 
+  
